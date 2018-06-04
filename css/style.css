@@ -49,7 +49,7 @@ body {
   position: absolute;
   top: 20px;
   right: 100px;
-  width: 200px;
+  width: 400px;
   z-index: -1;
   height: auto;
 }
@@ -58,12 +58,10 @@ body {
   margin: 10px auto;
   padding: 0;
   font-weight: 600;
-  font-size: 28px;
   color: #333;
 }
 
 .chunk h2 {
-  font-size: 18px;
   font-weight: 300;
   color: #000;
   opacity: 0.3;
@@ -619,6 +617,7 @@ body {
   }
 
   #textarea1:focus {
+    color: #adbdff;
     border-bottom: 1px solid #adbdff;
   }
 
