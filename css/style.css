@@ -619,7 +619,6 @@ body {
   }
 
   #textarea1:focus {
-    color: #adbdff;
     border-bottom: 1px solid #adbdff;
   }
 
