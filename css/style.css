@@ -24,6 +24,7 @@ body {
 
 .indexbody {
  overflow: hidden;
+ height: 100vh;
 }
 
 ::selection {
