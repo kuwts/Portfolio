@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+        window.sr = ScrollReveal();
+    </script>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+    <div class="contactwrap">
+        <div class="row nomargin">
+            <div class="col s12">
+                <div class="pagenav">
+                    <i></i>
+                    <a href="index.html" class="logolink">
+                        <h6 class="pagelogo">Daniel Cutz</h6>
+                    </a>
+                    <ul>
+                        <a href="about.html" class="aboutlink">
+                            <li>About</li>
+                        </a>
+                        <a href="works.html" class="workslink">
+                            <li>Works</li>
+                        </a>
+                        <a href="contact.html" class="contactlink">
+                            <li>Contact</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row pageheading nomargin">
+            <div class="col s12">
+                <h3 class="subheadingrev">contact</h3>
+                <br>
+                <h1 class="mainheadingrev">Get in touch!</h1>
+            </div>
+        </div>
+
+        <div class="row rowshadowfix">
+            <div class="col s12 m6 push-m3 aboutcontent">
+                <div class="row contactdesc">
+                    <div class="col s12 m8 push-m2">
+                        <p>Need a website? Think I would be a good fit on your team? Want to grab a coffee? Contact me with
+                            the form down below!</p>
+                    </div>
+                </div>
+
+                <div class="contactform">
+                    <form action="https://formspree.io/daniel.cutz@outlook.com" method="POST">
+                        <div class="row nomargin">
+
+                            <div class="input-field col s12 l5">
+                                <i class="material-icons prefix">person</i>
+                                <input id="name" type="text" class="validate" name="name">
+                                <label for="name">Name</label>
+                            </div>
+
+                            <div class="input-field col s12 l6 push-l1">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" type="email" class="validate" name="_replyto">
+                                <label for="email">Email</label>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="input-field">
+
+                                    <i class="material-icons prefix">free_breakfast</i>
+                                    <textarea id="textarea1" class="materialize-textarea" name="Message"></textarea>
+                                    <label for="textarea1">What's up?</label>
+
+                                </div>
+                            </div>
+                        </div>
+                        <input type="submit" value="Send" class="sendcontact">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="row">
+                <div class="col s12 l6 quicklinks">
+                    <h5>Quick Links</h5>
+                    <div class="linkspace">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="works.html">Works</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <div class="col s12 l6 resumecenter">
+                    <a href="Daniel Cutz - Resume.pdf" class="resume">View Resume</a>
+                </div>
+            </div>
+            <div class="row copyright nomargin">
+                <div class="col s12">
+                    <span>&#169; Copyright 2018 - Daniel Cutz - All Rights Reserved</span>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+        sr.reveal('.mainheadingrev', {
+            origin: 'bottom',
+            distance: '30px',
+            duration: 1000,
+            easing:'ease-out',
+            reset: false,
+            scale:1,
+            delay: 500
+        });
+
+        sr.reveal('.subheadingrev', {
+            origin: 'bottom',
+            distance: '30px',
+            duration: 1000,
+            easing:'ease-out',
+            reset: false,
+            scale: 1
+        });
+
+        sr.reveal('.aboutcontent', {
+            origin: 'bottom',
+            distance: '30px',
+            duration: 1000,
+            easing:'ease-out',
+            reset: false,
+            scale:1,
+            delay: 1000
+        });
+    </script>
+
+</body>
+
+</html>
