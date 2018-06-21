@@ -19,7 +19,7 @@ html {
 
 body {
   background: #eee;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .indexbody {
